@@ -1,2 +1,16 @@
 # Jenkins_Pipeline_Sample
-sample jenkins pipeline
+
+Declarative pipeline syntax:-
+===========================
+pipeline {
+    agent any
+    stages {
+        stage('print message') {
+            steps {
+                echo 'Welcome Hari'
+            }
+        }
+    }
+}
+
+
