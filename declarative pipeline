@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('print message') {
             steps {
-                cat '/etc/passwd'
+                sh 'cat /etc/passwd'
             }
         }
     }
