@@ -6,5 +6,10 @@ pipeline {
                 sh 'cat /etc/passwd'
             }
         }
+        stage ('execute linux commands') {
+            steps {
+                sh 'ls -a'
+            }
+        } 
     }
 }
