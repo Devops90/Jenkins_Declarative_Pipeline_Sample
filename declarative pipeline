@@ -8,7 +8,7 @@ pipeline {
         }
         stage ('execute linux commands') {
             steps {
-                sh 'll'
+                sh 'ls -al'
             }
         }
     }
